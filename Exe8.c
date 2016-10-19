@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> // sqrt()
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
 	else
 	{
 		float delta = b*b - 4 * a * c;
-		float sqrt_delta = sqrt(delta);
+		float sqrt_delta = sqrt(delta); // la fonction sqrt sert a calculer la racine carré d'un nombre,
 		
 		if (delta > 0)
 			printf("La solution est: x = %f ou x = %f", (-b-sqrt_delta)/(2*a), (-b+sqrt_delta)/(2*a));

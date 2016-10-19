@@ -7,7 +7,7 @@ int main()
 	printf("Entrez les deux nombres: ");
 	scanf("%d %d", &nbr1, &nbr2);
 	
-	if (nbr1 == 0 && nbr2 == 0)
+	if (nbr1 == 0 && nbr2 == 0) 
 		printf("0");
 		
 	else if (nbr1 >= 0 && nbr2 >= 0)
@@ -16,12 +16,12 @@ int main()
 	else if (nbr1 <= 0 && nbr2 <= 0)
 		printf("-");
 	
-	else
+	else // si les deux nombres ont un signe different 
 	{
 		int pos = nbr1, neg = nbr1;
 		
 		if (nbr1 < 0)
-			pos = nbr2;
+			pos = nbr2; 
 			
 		else
 			neg = nbr2;

@@ -17,7 +17,7 @@ int main()
 	
 	day += 1;
 	
-	if (day > max_day)
+	if (day > max_day) 
 	{
 		day = 1;
 		month += 1;

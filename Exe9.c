@@ -8,13 +8,13 @@ int main()
 	scanf("%f %f %f", &x, &y, &z);
 	
 	int i = 0;
-	float nbr;
+	float nbr; // stock une valeur avant d'etre ecrasé
 	
-	while (i == 0)
+	while (i == 0) // la boucle continue tant que les valeurs x , y ou z changent/se rangent par ordre
 	{
 		i = 1;
 		
-		if (x > y)
+		if (x > y) 
 		{
 			i = 0;
 			nbr = x;
